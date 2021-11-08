@@ -13,6 +13,10 @@ const Header = ()=>{
                 <Logo className='logo' />
             </Link>
             <div className="options">
+                <Link to="/sign-in-sign-up" className="option">
+                    Sign in / sign up
+                </Link>
+
                 <Link to="/shop" className="option">
                     Shop
                 </Link>

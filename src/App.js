@@ -8,6 +8,8 @@ import HomePage from './pages/home-page/home-page.component';
 
 import Shop from './pages/shop/shop.component';
 
+import SignInSignUp from './pages/sign-in-sign-up/sign-in-sign-up.component';
+
 import './App.css';
 
 
@@ -20,6 +22,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/shop" component={Shop} />
+          <Route exact path="/sign-in-sign-up" component={SignInSignUp} />
         </Switch>
         
       </div>
